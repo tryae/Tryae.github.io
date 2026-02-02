@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 66%;
+    margin: 0 auto;
+    font-family: "Roboto";
+    background-color: rgb(22, 22, 22);
+}
+
+h1 {
+    color: #FFFF;
+}
+
+h2 {
+    color: #FFFF;
+}
+
+h3 {
+    color: #FFFF;
+}
+
+p {
+    color: #FFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: rgb(10, 10, 10);
+    border-bottom: 2px solid #FFFF;
+}
+
+.title {
+    margin-bottom: 2.5rem;
+}
+
+header p {
+    height: 1.7rem;
+}
+
+.my-info p {
+    text-align: right;
+}
+
+.about-me {
+    width:90%;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 2rem;
+    background-color: rgb(31, 29, 29);
+}
+
+.about-me p {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.git-portfolio {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.my-projects {
+    margin-right: 15rem;
+}
+
+.my-projects p {
+    margin-left: 1rem;
+}
+
+.my-projects a {
+
+    margin-left: 1rem;
+}
+
+.git-portfolio aside {
+    display: flex;
+    text-align: right;
+    background-color: #2b2b2b;
+    opacity: 0.5;
+    height: 8rem;
+}
+
+.git-portfolio aside p {
+    margin-left: 1rem;
+}
+
+.color {
+    min-width: 0.7rem;
+    background-color: black;
+    opacity: 0.8;
+}
