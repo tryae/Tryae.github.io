@@ -1,1 +1,1 @@
-this website is an about me and my dev journe
+# this website is an about me and my dev journey
